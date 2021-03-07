@@ -1,2 +1,2 @@
 # rsschool-cv
-rsschool-cv lessons
+https://github.com/AlexKorsak/rsschool-cv/cv

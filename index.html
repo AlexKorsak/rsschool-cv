@@ -4,11 +4,78 @@
     <title>My CV</title>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="stylesheet" href="main.min.css">
+    <link rel="stylesheet" href="build/styles/main.min.css">
   </head>
+
   <body>
+
+    <div class="container">
+      <div class="header">
+        <div class="header__image">
+          <img alt="my photo" src="./build/images/profile.jpg" />
+        </div>
+        <div class="header__info">
+          <h1>Alexandr Korsak</h1>
+          <h2>Junior Software Engineer</h2>
+          <div class="header__info__location">
+            <p>Minsk, Republic of Belarus </p>
+            <p>Age: 28 years</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="section section__contacts">
+        <div class="section__header">Contact</div>
+        <ul>
+          <li><span>phone</span><p>+375 (29) 572-22-82</p></li>
+          <li><span>mail</span><p><a href="mailto:aliaksandrkorsak@gmail.com">aliaksandrkorsak@gmail.com</a></p></li>
+          <li><span>skype</span><p>aliaksandr.korsak</p></li>
+        </ul>
+      </div>
+      
+      <div class="section section__about">
+        <div class="section__header">About</div>
+        <p>Hello.<br>
+          I Highly motivated and skilled Web Developer and Team Leader.
+          Proven self-learning and independent project investigation abilities.
+          Profound knowledge and experience of more than 5 years in web development.
+          4+ years experience in design, development, testing and technical support of web applications
+          on Linux using PHP, Apache, MySQL and scripting. Experience in Hands-On development complex code.
+          Experience with various web technologies, including HTML, CSS, JavaScript, responsive layout and others.
+        </p>
+      </div>
+
+      <div class="section section__skils">
+        <div class="section__header">Skils</div>
+        <ul>
+          <li><span>HTML5</span><span>CSS3</span><span>SCSS</span></li>
+          <li><span>JavaScript</span><span>jQuery</span></li>
+          <li><span>React</span><span>Vue</span></li>
+          <li><span>Git</span></li>
+          <li><span>TYPO3</span><span>Wordpress</span></li>
+          <li><span>Bootstrap</span></li>
+          <li>Familiar with PHP<span>PHP</span></li>
+        </ul>
+      </div>
+
+      <div class="section section__code">
+        <div class="section__header">Code example</div>
+        <code>
+          function accordionAnimation() {<br>
+            $('#accordion').on('hide.bs.collapse', function (index) {<br>
+                setTimeout(function () {<br>
+                    // $(index.target).offset().top;<br>
+                    $('html, body').animate({<br>
+                        scrollTop: $('.eventShow__accordion').offset().top - 150<br>
+                    }, 0);<br>
+                }, 0);<br>
+            });<br>
+          }
+        </code>
+      </div>
+
+    </div>
     
   </body>
 
-  <!-- <script src="main.min.js"></script> -->
 </html>

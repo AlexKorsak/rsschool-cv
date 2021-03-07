@@ -1,0 +1,36 @@
+{
+  "name": "rssschool",
+  "version": "1.0.0",
+  "description": "### Markdown & Git https://AlexKorsak.github.io/rsschool-cv/cv",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "cross-env NODE_ENV=dev gulp",
+    "build": "cross-env NODE_ENV=prod gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexKorsak/rsschool-cv.git"
+  },
+  "author": "Alexandr Korsak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexKorsak/rsschool-cv/issues"
+  },
+  "homepage": "https://github.com/AlexKorsak/rsschool-cv#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^3.0.0",
+    "gulp-rm": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2"
+  }
+}

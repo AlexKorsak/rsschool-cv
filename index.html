@@ -17,19 +17,16 @@
         <div class="header__info">
           <h1>Alexandr Korsak</h1>
           <h2>Junior Software Engineer</h2>
-          <div class="header__info__location">
-            <p>Minsk, Republic of Belarus </p>
-            <p>Age: 28 years</p>
-          </div>
+          <p>Minsk, Republic of Belarus </p>
+          <p>Age: 28 years</p>
         </div>
       </div>
   
       <div class="section section__contacts">
-        <div class="section__header">Contact</div>
         <ul>
-          <li><span>phone</span><p>+375 (29) 572-22-82</p></li>
-          <li><span>mail</span><p><a href="mailto:aliaksandrkorsak@gmail.com">aliaksandrkorsak@gmail.com</a></p></li>
-          <li><span>skype</span><p>aliaksandr.korsak</p></li>
+          <li><p><span>phone:</span>+375 (29) 572-22-82</p></li>
+          <li><p><span>mail:</span><a href="mailto:aliaksandrkorsak@gmail.com">aliaksandrkorsak@gmail.com</a></p></li>
+          <li><p><span>skype:</span>aliaksandr.korsak</p></li>
         </ul>
       </div>
       
@@ -54,24 +51,63 @@
           <li><span>Git</span></li>
           <li><span>TYPO3</span><span>Wordpress</span></li>
           <li><span>Bootstrap</span></li>
-          <li>Familiar with PHP<span>PHP</span></li>
+          <li>Familiar with <span>PHP</span></li>
         </ul>
       </div>
 
       <div class="section section__code">
         <div class="section__header">Code example</div>
-        <code>
-          function accordionAnimation() {<br>
-            $('#accordion').on('hide.bs.collapse', function (index) {<br>
-                setTimeout(function () {<br>
-                    // $(index.target).offset().top;<br>
-                    $('html, body').animate({<br>
-                        scrollTop: $('.eventShow__accordion').offset().top - 150<br>
-                    }, 0);<br>
-                }, 0);<br>
-            });<br>
-          }
-        </code>
+        <div class="code-example">
+          <code>
+            function accordionAnimation() {<br>
+              $('#accordion').on('hide.bs.collapse', function (index) {<br>
+                  setTimeout(function () {<br>
+                      // $(index.target).offset().top;<br>
+                      $('html, body').animate({<br>
+                          scrollTop: $('.eventShow__accordion').offset().top - 150<br>
+                      }, 0);<br>
+                  }, 0);<br>
+              });<br>
+            }
+          </code>
+        </div>
+      </div>
+
+      <div class="section section__work">
+        <div class="section__header">Work experience</div>
+        <div class="infoItem">
+          <p class="date">from 2019 to now</p>
+          <h3>«AlpeinSoft»</h3>
+          <p>Junior Software Engineer</p>
+        </div>
+      </div>
+
+      <div class="section section__education">
+        <div class="section__header">Education</div>
+        <div class="infoItem">
+          <p class="date">2011 - 2016</p>
+          <h3>INSTITUTE OF ENTREPRENEURIAL ACTIVITY</h3>
+        </div>
+        <div class="infoItem">
+          <p class="date">2018</p>
+          <h3>Courses :HTML, CSS, and Javascript for Web Developers</h3>
+          <p>*During the learning of the course I got acquainted with*<br>
+            - Basics of HTML5<br>
+            - Basics of CSS3<br>
+            - Basics of JS</p>
+        </div>
+      </div>
+
+      <div class="section section__skils section__lang">
+        <div class="section__header">Languages</div>
+        <ul>
+          <li><span>English</span>(A2) Pre-Intermediate</li>
+          <li><span>German</span>(eginner level)</li>
+        </ul>
+      </div>
+
+      <div class="footer">
+        <p>Thanks for attention</p>
       </div>
 
     </div>

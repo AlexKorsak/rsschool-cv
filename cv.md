@@ -1,6 +1,6 @@
 # Alexandr Korsak
 ## Junior Software Engineer
-![My_photo](./src/profile.jpg) 
+---
 
 >### Minsk, Republic of Belarus 
 >### Age: 28 years

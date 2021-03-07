@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>My CV</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="build/styles/main.min.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <div class="header__image">
+          <img alt="my photo" src="./build/images/profile.jpg" />
+        </div>
+        <div class="header__info">
+          <h1>Alexandr Korsak</h1>
+          <h2>Junior Software Engineer</h2>
+          <p>Minsk, Republic of Belarus </p>
+          <p>Age: 28 years</p>
+        </div>
+      </div>
+  
+      <div class="section section__contacts">
+        <ul>
+          <li><p><span>phone:</span>+375 (29) 572-22-82</p></li>
+          <li><p><span>mail:</span><a href="mailto:aliaksandrkorsak@gmail.com">aliaksandrkorsak@gmail.com</a></p></li>
+          <li><p><span>skype:</span>aliaksandr.korsak</p></li>
+        </ul>
+      </div>
+      
+      <div class="section section__about">
+        <div class="section__header">About</div>
+        <p>Hello.<br>
+          I Highly motivated and skilled Web Developer and Team Leader.
+          Proven self-learning and independent project investigation abilities.
+          Profound knowledge and experience of more than 5 years in web development.
+          4+ years experience in design, development, testing and technical support of web applications
+          on Linux using PHP, Apache, MySQL and scripting. Experience in Hands-On development complex code.
+          Experience with various web technologies, including HTML, CSS, JavaScript, responsive layout and others.
+        </p>
+      </div>
+
+      <div class="section section__skils">
+        <div class="section__header">Skils</div>
+        <ul>
+          <li><span>HTML5</span><span>CSS3</span><span>SCSS</span></li>
+          <li><span>JavaScript</span><span>jQuery</span></li>
+          <li><span>React</span><span>Vue</span></li>
+          <li><span>Git</span></li>
+          <li><span>TYPO3</span><span>Wordpress</span></li>
+          <li><span>Bootstrap</span></li>
+          <li>Familiar with <span>PHP</span></li>
+        </ul>
+      </div>
+
+      <div class="section section__code">
+        <div class="section__header">Code example</div>
+        <div class="code-example">
+          <code>
+            function accordionAnimation() {<br>
+              $('#accordion').on('hide.bs.collapse', function (index) {<br>
+                  setTimeout(function () {<br>
+                      // $(index.target).offset().top;<br>
+                      $('html, body').animate({<br>
+                          scrollTop: $('.eventShow__accordion').offset().top - 150<br>
+                      }, 0);<br>
+                  }, 0);<br>
+              });<br>
+            }
+          </code>
+        </div>
+      </div>
+
+      <div class="section section__work">
+        <div class="section__header">Work experience</div>
+        <div class="infoItem">
+          <p class="date">from 2019 to now</p>
+          <h3>«AlpeinSoft»</h3>
+          <p>Junior Software Engineer</p>
+        </div>
+      </div>
+
+      <div class="section section__education">
+        <div class="section__header">Education</div>
+        <div class="infoItem">
+          <p class="date">2011 - 2016</p>
+          <h3>INSTITUTE OF ENTREPRENEURIAL ACTIVITY</h3>
+        </div>
+        <div class="infoItem">
+          <p class="date">2018</p>
+          <h3>Courses :HTML, CSS, and Javascript for Web Developers</h3>
+          <p>*During the learning of the course I got acquainted with*<br>
+            - Basics of HTML5<br>
+            - Basics of CSS3<br>
+            - Basics of JS</p>
+        </div>
+      </div>
+
+      <div class="section section__skils section__lang">
+        <div class="section__header">Languages</div>
+        <ul>
+          <li><span>English</span>(A2) Pre-Intermediate</li>
+          <li><span>German</span>(eginner level)</li>
+        </ul>
+      </div>
+
+      <div class="footer">
+        <p>Thanks for attention</p>
+      </div>
+
+    </div>
+    
+  </body>
+
+</html>

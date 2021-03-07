@@ -1,15 +1,15 @@
 # Alexandr Korsak
 ## Junior Software Engineer
-![My_photo](profile.jpg) 
+![My_photo](./src/profile.jpg) 
 
 >### Minsk, Republic of Belarus 
 >### Age: 28 years
 
 ## CONTACTS
 ---
-- __phone__ +375 (29) 572-22-82
-- __mail__ <aliaksandrkorsak@gmail.com>
-- __skype__ aliaksandr.korsak
+- __phone__ - +375 (29) 572-22-82
+- __mail__ - <aliaksandrkorsak@gmail.com>
+- __skype__ - aliaksandr.korsak
 
 ## ABOUT ME
 ---

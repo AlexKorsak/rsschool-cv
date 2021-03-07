@@ -1,2 +1,4 @@
 # rsschool-cv
-https://github.com/AlexKorsak/rsschool-cv/cv
+
+### Markdown & Git
+https://AlexKorsak.github.io/rsschool-cv/cv
